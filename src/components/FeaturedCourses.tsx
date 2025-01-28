@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
-// import { IconAppWindow } from "@tabler/icons-react";
 import Link from "next/link";
-import { div } from "motion/react-client";
 
 
 const FeaturedCourses = () => {
@@ -62,7 +60,7 @@ const FeaturedCourses = () => {
 
   return (
 
-    <div className="py-12 bg-gray-900">
+    <div className="py-12 bg-gray-900 px-4">
 
         <div className="text-center">
             <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
@@ -75,7 +73,7 @@ const FeaturedCourses = () => {
         </div>
 
 
-        <div className="mt-10">
+        <div className="mt-10 ">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
               {
                 courseData.map((course:Course)=>(

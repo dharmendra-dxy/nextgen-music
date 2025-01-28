@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
-import Instruments from "@/components/Instruments";
+import Testimonials from "@/components/Testimonials";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
 
       <HeroSection/>
       <FeaturedCourses/>
-      <Instruments/>
+      <Testimonials/>
+      <Instructors/>
 
 
     </main>  
