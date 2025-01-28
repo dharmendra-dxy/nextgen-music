@@ -9,8 +9,8 @@ const FeaturedCourses = () => {
     interface Course{
       name: string,
       description: string,
-      rating: Number,
-      price: Number,
+      rating: number,
+      price: number,
       instructor: string,
       duration: string,
     }
